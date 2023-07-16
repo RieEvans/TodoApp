@@ -11,13 +11,13 @@ export const Todo = ({ tasks, editTodo, toggleComplete, todos, setTodos }) => {
   };
 
   return (
-    <div className="flex items-center justify-center mt-5 border-b ">
+    <div className="flex items-center justify-center mt-5 border-b text-white ">
       <p
         onClick={() => toggleComplete(tasks.id)}
         className={`
         ${tasks.completed ? " fa-solid fa-check flex justify-between tracking-widest transition gap-2 translate-x-[-20px]  border-r " : "transition translate-x-[0]"} 
         ${tasks.completed ? "text-emerald-500 font-bold" : ""} 
-        px-5 font-semibold text-zinc-100 cursor-pointer w-full whitespace-normal overflow-hidden py-2`}
+        px-5 font-semibold cursor-pointer w-full overflow-hidden py-2`}
       >
          {tasks.input}  
       </p>
