@@ -49,7 +49,7 @@ export const Todoform = () => {
   return (
     <section className="m-auto sm:w-[80%] xl:w-[40%] bg-gray-700 px-5 py-5 rounded-md z-40">
       <div className="py-5 border-b">
-        <h1 className="text-4xl text-zinc-100 font-semibold text-center font-[Shrikhand] tracking-widest   ">
+        <h1 className="text-4xl text-white font-semibold text-center font-[Shrikhand] tracking-widest   ">
           My Day ...
         </h1>
       </div>

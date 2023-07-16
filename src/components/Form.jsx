@@ -22,7 +22,7 @@ export const Form = ({ addTodo }) => {
         value={value}
         type="text"
         placeholder="Add your List"
-        className="w-full rounded-md font-semibold bg-gray-300"
+        className="w-full rounded-md font-semibold bg-white"
         required
       />
 
