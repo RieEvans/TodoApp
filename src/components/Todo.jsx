@@ -14,7 +14,7 @@ export const Todo = ({ tasks, editTodo, toggleComplete, todos, setTodos }) => {
     <div className="flex items-center justify-center mt-5 border-b ">
       <p
         onClick={() => toggleComplete(tasks.id)}
-        className={`${tasks.completed ? "text-slate-900 font-bold fa-solid fa-check flex justify-between tracking-widest transition gap-2 translate-x-[-20px]  border-r " : "transition translate-x-[0]"} px-5 font-semibold text-zinc-100 cursor-pointer w-full whitespace-normal overflow-hidden py-2`}
+        className={`${tasks.completed ? "text-green-600 font-bold fa-solid fa-check flex justify-between tracking-widest transition gap-2 translate-x-[-20px]  border-r " : "transition translate-x-[0]"} px-5 font-semibold text-zinc-100 cursor-pointer w-full whitespace-normal overflow-hidden py-2`}
       >
          {tasks.input}  
       </p>
